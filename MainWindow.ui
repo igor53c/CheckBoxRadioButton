@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>500</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>500</width>
+    <height>400</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>500</width>
+    <height>400</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="gbHintergrund">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>15</y>
+      <width>150</width>
+      <height>300</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="title">
+     <string>Hintergrund</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <widget class="QWidget" name="verticalLayoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>70</y>
+       <width>106</width>
+       <height>176</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QRadioButton" name="rbHGGruen">
+        <property name="font">
+         <font>
+          <pointsize>9</pointsize>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Grün</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="rbHGBlau">
+        <property name="text">
+         <string>Blau</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="rbHGRot">
+        <property name="text">
+         <string>Rot</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="rbHGGelb">
+        <property name="text">
+         <string>Gelb</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="rbHGGrau">
+        <property name="text">
+         <string>Grau</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="gbVordergrund">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>15</y>
+      <width>150</width>
+      <height>300</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Vordergrund</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <widget class="QWidget" name="layoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>65</y>
+       <width>101</width>
+       <height>176</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <widget class="QRadioButton" name="rbVGBlau">
+        <property name="text">
+         <string>Blau</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="rbVGRot">
+        <property name="text">
+         <string>Rot</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="rbVGGelb">
+        <property name="text">
+         <string>Gelb</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="rbVGSchwarz">
+        <property name="text">
+         <string>Schwarz</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="rbVGWeiss">
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Weiss</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="btnBeenden">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>345</y>
+      <width>146</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>B&amp;eenden</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="gbFont">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>15</y>
+      <width>150</width>
+      <height>300</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Schriftart</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <widget class="QCheckBox" name="checkFett">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>70</y>
+       <width>93</width>
+       <height>26</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Fett</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkKursiv">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>105</y>
+       <width>93</width>
+       <height>26</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Kursiv</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lblGroesse">
+     <property name="geometry">
+      <rect>
+       <x>17</x>
+       <y>190</y>
+       <width>106</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Größe</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit">
+     <property name="geometry">
+      <rect>
+       <x>15</x>
+       <y>220</y>
+       <width>76</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="maxLength">
+      <number>2</number>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>rbHGGruen</tabstop>
+  <tabstop>rbHGBlau</tabstop>
+  <tabstop>rbHGRot</tabstop>
+  <tabstop>rbHGGelb</tabstop>
+  <tabstop>rbHGGrau</tabstop>
+  <tabstop>rbVGBlau</tabstop>
+  <tabstop>rbVGRot</tabstop>
+  <tabstop>rbVGGelb</tabstop>
+  <tabstop>rbVGSchwarz</tabstop>
+  <tabstop>rbVGWeiss</tabstop>
+  <tabstop>checkFett</tabstop>
+  <tabstop>checkKursiv</tabstop>
+  <tabstop>lineEdit</tabstop>
+  <tabstop>btnBeenden</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
